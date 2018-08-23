@@ -1,0 +1,89 @@
+body {
+	background-color: #f1f2f6;
+}
+
+.parallax-content {
+	/* background-color: yellow; */
+	width: 35%;
+	box-sizing: border-box;
+	padding: 60px;
+	color: white;
+}
+
+@media screen and (max-width: 1024px) {
+	.parallax-content {
+		width: 40%;
+		box-sizing: border-box;
+		padding: 60px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.parallax-content {
+		width: 50%;
+		box-sizing: border-box;
+		padding: 40px;
+	}
+}
+
+@media screen and (max-width: 414px) {
+	.parallax-content {
+		width: 100%;
+		box-sizing: border-box;
+		padding: 80px;
+	}
+}
+
+@media screen and (max-width: 411px) {
+	.parallax-content {
+		width: 100%;
+		box-sizing: border-box;
+		padding: 80px;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.parallax-content {
+		width: 100%;
+		box-sizing: border-box;
+		padding: 80px;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	.parallax-content {
+		width: 100%;
+		box-sizing: border-box;
+		padding: 80px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.parallax-content {
+		width: 100%;
+		box-sizing: border-box;
+		padding: 60px;
+	}
+}
+
+.explore-content {
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.explore-content h1 {
+	color: #2f3542;
+}
+
+.partners {
+	/* background-color: #263238; */
+	color: #2f3542;
+	padding: 5px;
+	text-align: center;
+}
+
+.slider-images {
+	text-align: center;
+	color: #2f3542;
+}
