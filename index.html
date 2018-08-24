@@ -17,12 +17,20 @@
 	<div class="navbar-fixed">
 		<nav class="nav-extended blue-grey darken-4">
 			<div class="container">
-				<div class="nav-wrapper">
-					<a href="#" class="brand-logo"><img src="assets/img/logo_outline.png" width="100px"></a>
-					<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+				<div class="nav-wrapper section">
+					<a href="#main" class="brand-logo">
+						<img src="assets/img/logo_outline.png" width="150px">
+					</a>
+					<a href="#" data-target="mobile-demo" class="sidenav-trigger">
+						<i class="material-icons">menu</i>
+					</a>
 					<ul id="nav-mobile" class="right hide-on-med-and-down">
-						<li><a href="#!">Login</a></li>
-						<li><a href="#!">Register</a></li>
+						<li>
+							<a href="#!">Login</a>
+						</li>
+						<li>
+							<a href="#!">Register</a>
+						</li>
 					</ul>
 				</div>
 			</div>
@@ -30,38 +38,48 @@
 	</div>
 
 	<ul class="sidenav" id="mobile-demo">
-		<li><a href="#!">Login</a></li>
-		<li><a href="#!">Register</a></li>
+		<li>
+			<a href="#!">Login</a>
+		</li>
+		<li>
+			<a href="#!">Register</a>
+		</li>
 	</ul>
 
-	<div class="parallax-container">
-		<div class="parallax"><img src="assets/img/banner.png"></div>
-		<div class="parallax-content wow bounceInLeft">
-			<h1>Invfest 2018</h1>
+	<div id="main" class="parallax-container section scrollspy">
+		<div class="parallax">
+			<img src="assets/img/banner.png">
+		</div>
+		<div class="parallax-content wow bounceInLeft section">
+			<h1>INVFEST 2018</h1>
 			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur quas ex ipsam rem quae dolorum quidem, omnis necessitatibus
 				atque repudiandae praesentium animi a facere, totam alias. Quod, quae. Eos, quo?</p>
-			<button class="waves-effect waves-light btn blue-grey darken-3">Download Rulebook</button>
+			<a href="#explore" class="waves-effect waves-light btn white-text blue-grey darken-4">Explore!</a>
 		</div>
 	</div>
 
-	<div class="explore-content">
+	<div id="explore" class="explore-content section scrollspy">
 		<h1>Explore!</h1>
 
 		<div class="container">
 			<div class="row">
+
 				<div class="col s12 m4">
-					<div class="card wow fadeInUp" data-wow-delay="1.8s">
+					<div class="card wow fadeInUp" data-wow-delay="0.4s">
 						<div class="card-image waves-effect waves-block waves-light">
-							<img class="activator" src="assets/img/gambar1.jpg">
+							<img class="activator" src="assets/img/gambar2.jpg">
 						</div>
 						<div class="card-content">
-							<span class="card-title activator grey-text text-darken-4">Rulebook<i class="material-icons right">more_vert</i></span>
-							
+							<span class="card-title activator grey-text text-darken-4">Description
+								<i class="material-icons right">more_vert</i>
+							</span>
+
 						</div>
 						<div class="card-reveal">
-							<span class="card-title grey-text text-darken-4">Rulebook<i class="material-icons right">close</i></span>
+							<span class="card-title grey-text text-darken-4">Description
+								<i class="material-icons right">close</i>
+							</span>
 							<p>Here is some more information about this product that is only revealed once clicked on.</p>
-							<p><a href="#">Download</a></p>
 						</div>
 					</div>
 				</div>
@@ -69,15 +87,22 @@
 				<div class="col s12 m4">
 					<div class="card wow fadeInUp" data-wow-delay="1.4s">
 						<div class="card-image waves-effect waves-block waves-light">
-							<img class="activator" src="assets/img/gambar3.jpg">
+							<img class="activator" src="assets/img/gambar1.jpg">
 						</div>
 						<div class="card-content">
-							<span class="card-title activator grey-text text-darken-4">Timeline<i class="material-icons right">more_vert</i></span>
-							
+							<span class="card-title activator grey-text text-darken-4">Rulebook
+								<i class="material-icons right">more_vert</i>
+							</span>
+
 						</div>
 						<div class="card-reveal">
-							<span class="card-title grey-text text-darken-4">Timeline<i class="material-icons right">close</i></span>
+							<span class="card-title grey-text text-darken-4">Rulebook
+								<i class="material-icons right">close</i>
+							</span>
 							<p>Here is some more information about this product that is only revealed once clicked on.</p>
+							<p>
+								<a href="#">Download</a>
+							</p>
 						</div>
 					</div>
 				</div>
@@ -85,18 +110,25 @@
 				<div class="col s12 m4">
 					<div class="card wow fadeInUp" data-wow-delay="0.8s">
 						<div class="card-image waves-effect waves-block waves-light">
-							<img class="activator" src="assets/img/gambar2.jpg">
+							<img class="activator" src="assets/img/gambar3.jpg">
 						</div>
 						<div class="card-content">
-							<span class="card-title activator grey-text text-darken-4">Description<i class="material-icons right">more_vert</i></span>
-							
+							<span class="card-title activator grey-text text-darken-4">Timeline
+								<i class="material-icons right">more_vert</i>
+							</span>
+
 						</div>
 						<div class="card-reveal">
-							<span class="card-title grey-text text-darken-4">Description<i class="material-icons right">close</i></span>
+							<span class="card-title grey-text text-darken-4">Timeline
+								<i class="material-icons right">close</i>
+							</span>
 							<p>Here is some more information about this product that is only revealed once clicked on.</p>
 						</div>
 					</div>
 				</div>
+
+
+
 			</div>
 		</div>
 	</div>
@@ -140,8 +172,8 @@
 			</div>
 
 			<div class="partners-sponsors">
-				<img class="wow flipInY" data-wow-delay="1.4s" src="assets/img/logoitt.png" alt="">
-				<img class="wow flipInY" data-wow-delay="0.8s" src="assets/img/irccc.png" alt="">
+				<img class="wow flipInY" data-wow-delay="0.8s" src="assets/img/logoitt.png" alt="">
+				<img class="wow flipInY" data-wow-delay="0.4s" src="assets/img/irccc.png" alt="">
 			</div>
 		</div>
 	</div>
