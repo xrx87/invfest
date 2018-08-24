@@ -2,6 +2,10 @@ body {
 	background-color: #f1f2f6;
 }
 
+#main {
+	height: 700px;
+}
+
 .parallax-content {
 	width: 35%;
 	box-sizing: border-box;
@@ -67,8 +71,8 @@ body {
 
 .explore-content {
 	text-align: center;
-	margin-top: 20px;
-	margin-bottom: 100px;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
 .explore-content h1 {
@@ -76,7 +80,6 @@ body {
 }
 
 .partners {
-	/* background-color: #263238; */
 	color: #2f3542;
 	padding: 5px;
 	text-align: center;
